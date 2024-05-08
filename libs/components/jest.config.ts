@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'shared',
+  displayName: 'components',
   resolver: '@nx/jest/plugins/resolver',
   preset: 'jest-expo',
   moduleFileExtensions: ['ts', 'js', 'html', 'tsx', 'jsx'],

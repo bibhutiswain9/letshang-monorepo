@@ -1,10 +1,13 @@
 import NxWelcome from './nx-welcome';
+import HOC from 'libs/root/src/initializer';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="web" />
-    </div>
+    <HOC>
+      <View style={styles.container}>
+        <SolidButton />
+      </View>
+    </HOC>
   );
 }
 

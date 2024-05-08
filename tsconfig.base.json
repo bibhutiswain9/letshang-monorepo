@@ -15,7 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@letshang/shared": ["shared/src/index.ts"]
+      "@letshang/components": ["libs/components/src/index.ts"],
+      "@letshang/root": ["libs/root/src/index.ts"],
+      "@letshang/shared": ["shared/src/index.ts"],
+      "@letshang/store": ["libs/store/src/index.ts"],
+      "@letshang/types": ["libs/types/src/index.ts"],
+      "@letshang/utils": ["libs/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
