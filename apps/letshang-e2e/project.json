@@ -1,0 +1,10 @@
+{
+  "name": "letshang-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/letshang-e2e/src",
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["letshang"],
+  "// targets": "to see all targets run: nx show project letshang-e2e --web",
+  "targets": {}
+}

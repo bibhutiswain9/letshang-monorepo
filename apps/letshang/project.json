@@ -1,0 +1,9 @@
+{
+  "name": "letshang",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/letshang/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project letshang --web",
+  "targets": {}
+}
